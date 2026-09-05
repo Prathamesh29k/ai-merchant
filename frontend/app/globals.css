@@ -21,4 +21,8 @@ h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { letter-spacing: -0.025em; }
 table { border-collapse: collapse; }
 
+@media (min-width: 768px) {
+	main > aside { display: block !important; }
+}
+
 ::selection { background: #b35c3e; color: #f4f0e9; }
