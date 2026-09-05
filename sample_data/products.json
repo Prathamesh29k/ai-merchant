@@ -1,0 +1,8 @@
+[
+  {"name": "Aster Pro 14", "category": "laptop", "description": "14-inch productivity laptop with 16GB RAM.", "price_paise": 4999000, "stock": 8},
+  {"name": "Orbit Air", "category": "phone", "description": "Fast, bright 5G smartphone with all-day battery.", "price_paise": 2999000, "stock": 12},
+  {"name": "QuietType Mouse", "category": "mouse", "description": "Silent ergonomic wireless mouse.", "price_paise": 129900, "stock": 30},
+  {"name": "CarrySafe Laptop Bag", "category": "bag", "description": "Water-resistant laptop sleeve and shoulder bag.", "price_paise": 189900, "stock": 18},
+  {"name": "Shield Case", "category": "case", "description": "Impact-resistant phone case.", "price_paise": 79900, "stock": 40},
+  {"name": "RapidCharge 30W", "category": "charger", "description": "Compact USB-C fast charger.", "price_paise": 149900, "stock": 25}
+]
