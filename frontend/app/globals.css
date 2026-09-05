@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { background: #f4f0e9; color: #202522; }
-body { margin: 0; font-family: Georgia, serif; }
+:root {
+	background: #f4f0e9;
+	color: #202522;
+}
+
+body {
+	margin: 0;
+	background:
+		radial-gradient(circle at 85% 5%, rgba(179, 92, 62, 0.09), transparent 26rem),
+		linear-gradient(135deg, rgba(255, 255, 255, 0.42), transparent 42%);
+	font-family: Georgia, serif;
+}
+
 button, input { font: inherit; }
+
+::selection { background: #b35c3e; color: #f4f0e9; }
