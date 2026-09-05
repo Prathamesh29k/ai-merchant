@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { ProductCard } from "../../components/ProductCard";
 import { StatCard } from "../../components/StatCard";
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
 type Product = { id: number; name: string; category: string; description: string; price_paise: number; stock: number };
 type Audit = { id: number; action: string; amount_paise: number; decision: string; explanation: string; agent_id: string };
 export default function DashboardPage() {
